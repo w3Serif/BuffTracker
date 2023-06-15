@@ -1,0 +1,18 @@
+## Interface: 30300
+## Title: BuffTracker
+## Version: 1.0
+## Author: Nobrain from Sirus.su
+## SavedVariables: BuffTrackerDB
+## OptionalDeps: Ace3, LibStub
+## Notes: This addon shows buffs that were dispelled from your target, buffs that expired from you, or debuffs that were applied to your character.
+## X-LoadOn-Slash: /bufftracker, /btr
+
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+
+BuffTracker.lua
+options.lua
+frame.lua
